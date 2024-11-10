@@ -93,7 +93,7 @@ public class ViewDoctorsFrame extends JFrame {
         // Replace these with your actual database connection details
         String url = "jdbc:mysql://localhost:3306/doctor_management";
         String username = "root";
-        String password = "#Jayarajj16*";
+        String password = "passwd";
 
         return DriverManager.getConnection(url, username, password);
     }
